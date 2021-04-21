@@ -9,4 +9,6 @@
     <hr>
 
     {{ now() }}
+
+    <button wire:click="$emit('foo')">Refresh Children</button>
 </div>
